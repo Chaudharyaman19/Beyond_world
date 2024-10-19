@@ -1,0 +1,69 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("path-to-your-image.png"); /* Replace with the actual image path */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating of the image */
+  background-attachment: fixed;
+}
+
+.fix {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  transition: 5s ease;
+  width: 100%;
+  position: fixed;
+  display: block;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 0; /* Initially collapsed */
+  /* Hide contents when collapsed */
+  transition: height 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+.hidden {
+  display: none; /* Hide elements */
+}
+
+.menu-icon,
+.close-icon {
+  transition: 5s ease-in-out !important;
+  font-size: 24px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer for clickable icons */
+}
+.navbar {
+  transition: 5s ease-in-out !important;
+}
+.nav-list {
+  padding-top: 70px;
+  margin: auto;
+  font-size: 45px;
+  transition: 5s ease-in-out !important;
+}
+.nav-list li {
+  width: 100%;
+  transition: 5s ease-in-out !important;
+  padding-top: 20px;
+  list-style: none !important;
+}
+.list {
+  text-decoration: none;
+  color: goldenrod;
+  transition: 0.2s ease-in-out;
+  font-weight: 900;
+  font-family: "poppins";
+}
+.list:hover {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 700;
+  transform: rotate(360deg) scale(3.1) translateX(-100px) !important; /* Rotate, scale, and move from right to left */
+  box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  font-family: "Poppins", sans-serif; /* Ensuring Poppins is applied */
+}

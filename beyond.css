@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Add box-sizing to include padding and border in width and height calculations */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the nav stays on top of other content */
+  /* Optional: Set a background color to avoid transparency */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  padding-block: 25px;
+}
+
+.icon {
+  align-items: end;
+  padding-block: 25px;
+  font-size: 40px;
+}
+
+.ri-menu-3-line {
+  width: 300px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.heading {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin-top: 300px !important;
+
+  /* You can adjust this if needed */
+}
+
+.text {
+  font-size: 90px;
+  line-height: 109px;
+  width: 90%;
+  letter-spacing: -6px;
+}
+
+.change {
+  color: red;
+  font-size: 75px;
+  line-height: 109px;
+  width: 90%;
+  letter-spacing: -6px;
+}
+
+/* Flex container fixes */

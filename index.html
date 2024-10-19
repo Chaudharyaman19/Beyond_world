@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="beyond.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="navbar.css">
+  
+  </head>
+  <body>
+   
+    <nav class="fix">
+      <div class="container flex">
+        <div class="logo">
+          <a href="#">
+            <img src="https://beyond-words.in/images/bw-logo.png" alt="beyond-image" />
+          </a>
+        </div>
+        <div class="icon">
+          <!-- Menu and Close icons -->
+          <i class="ri-menu-3-line menu-icon" onclick="handlemenu()" style="color: black; font-size: 30px;"></i>
+          <i class="ri-close-line close-icon hidden" style="color: goldenrod; font-size: 30px;" onclick="handlemenu()"></i>
+        </div>
+      </div>
+      <div class="navbar">
+        <!-- Content of the navbar (hidden by default) -->
+        <div class="container flex">
+          <div class="logo">
+            <a href="#">
+              <img src="https://beyond-words.in/images/bw-logo.png" alt="beyond-image" />
+            </a>
+          </div>
+          <ul class="nav-list flex-col hidden">
+            <li><a class="list" href="#">Home</a></li>
+            <li><a  class="list" href="#">About</a></li>
+            <li><a  class="list" href="#">Services</a></li>
+            <li><a class="list" href="#">Product</a></li>
+            <li><a  class="list" href="#">Help</a></li>
+            <li><a  class="list" href="#">Contant Us</a></li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+
+    
+      <div class="heading" id="main-heading">
+        <div class="container">
+          <h3 class="text">We are a digital marketing agency</h3>
+          <span class="text"> managing </span>
+          <span class="change" id="text-change">campaigns</span>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="left">
+          <div class="contant">
+            <h5 id="dynamic-heading">digital Marketing</h5>
+            <p class="p" id="dynamic-content">
+              We ensure that you stay relevant and competitive, and help you
+              build, retain, and engage an audience.
+            </p>
+
+            <button class="btn">Explore More</button>
+          </div>
+        </div>
+        <div class="right" id="image-slider">
+          <div class="right2">
+            <img
+              class="image"
+              src="https://beyond-words.in/images/ban-3.webp"
+              alt=""
+            />
+          </div>
+          <div class="right3">
+            <img
+              class="image"
+              src="https://beyond-words.in/images/ban-4.webp"
+              alt=""
+            />
+          </div>
+          <div class="right4">
+            <img
+              class="image"
+              src="https://beyond-words.in/images/ban-3.webp"
+              alt=""
+            />
+          </div>
+          <div class="right5">
+            <img
+              class="image"
+              src="https://beyond-words.in/images/ban-4.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="our-client">
+        <div class="container">
+          <div class="client-text">
+            <h4>Our client</h4>
+          </div>
+          <div class="logos">
+            <div class="logo-image">
+              <img src="https://beyond-words.in/images/LOGO-031.jpg" alt="" />
+              <img
+                src="https://beyond-words.in/images/brand-logo2.png"
+                alt=""
+              />
+              <img
+                src="https://simplex-services.com/wp-content/uploads/2024/01/simplex-services_1.svg"
+                alt=""
+              />
+              <img
+                src="https://beyond-words.in/images/brand-logo2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/brand-logo4.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo5.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo6.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo4.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/brand-logo7.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo8.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo9.jpg" alt="" />
+            <img src="https://beyond-words.in/images/mr-logo.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/brand-logo11.jpg" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo13.jpg" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo12.jpg" alt="" />
+            <img src="https://beyond-words.in/images/phonepe.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/mr-logo.png" alt="" />
+            <img src="https://beyond-words.in/images/mc-logo.png" alt="" />
+            <img src="https://beyond-words.in/images/pamr-logo.png" alt="" />
+            <img src="https://beyond-words.in/images/rekha-logo.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/orange-logo.png" alt="" />
+            <img src="https://beyond-words.in/images/axix.png" alt="" />
+            <img src="https://beyond-words.in/images/logo-22.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo2.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/logo-33.png" alt="" />
+            <img src="https://beyond-words.in/images/logo-55.png" alt="" />
+            <img src="https://beyond-words.in/images/logo-44.png" alt="" />
+            <img src="https://beyond-words.in/images/brand-logo2.png" alt="" />
+          </div>
+          <div class="logo-image">
+            <img src="https://beyond-words.in/images/logo-44.png" alt="" />
+            <img src="https://beyond-words.in/images/LOGO-021.jpg" alt="" />
+            <img src="https://beyond-words.in/images/LOGO-011.jpg" alt="" />
+            <img src="https://beyond-words.in/images/LOGO-021.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container">
+          <h5 class="info-text">
+            We want to empower our customers.<br />
+            Beyond marketing, beyond words.
+          </h5>
+          <p class="info-p">
+            Download our portfolio to know more about clients and work. To get
+            in touch, drop us an email at
+            <span style="color: red">team@beyond-words.in </span>or fill a short
+            form so that we can contact you.
+          </p>
+          <button class="info-btn">Portfollio</button>
+          <button class="info-btn-2">Contact Us</button>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container" style="display: flex">
+          <div class="icons">
+            <a class="fb" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="fb" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="fb" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="fb" href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="brand logo">
+            <a href="#"
+              ><img
+                src="https://beyond-words.in/images/gray-logo.png"
+                alt="lgo"
+            /></a>
+          </div>
+        </div>
+        <div class="copy">
+          <h4 class="copy-text">
+            © Copyright 2024 Beyond Words |
+            <span style="color: red">Privacy Policy</span>
+          </h4>
+      
+      </footer>
+    </div>
+    <script src="hamberger.js"></script>
+    <script src="textchange.js"></script>
+    <script src="slider.js"></script>
+    <script src="beyound.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+      function smoothScrollToPosition(position) {
+        slider.scrollTo({
+          top: position,
+          behavior: "smooth",
+        });
+      }
+
+      // Scroll to the second slide
+      smoothScrollToPosition(slider.scrollHeight * 0.25);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </body>
+</html>

@@ -7,7 +7,13 @@
     }
   ],
   "rewrites": [
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/services", "destination": "/services.html" }
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.html"
+    }
   ]
 }
